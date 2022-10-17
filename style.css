@@ -1,0 +1,366 @@
+*{
+   margin: 0; 
+   padding: 0;
+   font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+   
+}
+.container{
+ padding-bottom: 200px;
+    background-image: url('img/banner.jpg') ;
+    background-size: cover;
+    min-height:100%;
+ 
+}
+/* .overley{
+
+    min-height: 100%;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px 338px rgb(20 14 18 / 30%);
+} */
+
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-nav .right-nav{
+
+    display: flex;
+    margin: 28px 17px;
+
+}
+.main-nav .right-nav li{
+    padding: 0 19px;
+    list-style: none;
+}
+.main-nav .left-nav{
+    margin-left: 50px;
+ 
+}
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-page .heading{
+    margin-top: 100px;
+    
+
+    
+}
+.main-page .heading h1{
+    font-size: 52px;
+    color: white;
+    font-weight: 400 bolder;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-align: center;
+
+
+
+}
+
+.main-page .content{
+    margin-top: 10px;
+}
+.main-page .content h3{
+    font-size: 27px;
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+.main-page .get-started{
+    margin-top: 10px;
+    margin-left: 123px;
+    text-align: center;
+    
+}
+.main-page .get-started h4{
+    font-weight: bold;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+text-align: center;
+color: white;
+
+margin-right: 125px;
+}
+.get-started #Email{
+    margin-top: 5px;
+    padding: 16px 121px 16px 0px;
+    font-size: 129%;
+    margin-left: -101px;
+    border: none;
+}
+.get-started .get-email{
+    height: 58px;
+    padding: 22px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    border-radius: 2px;
+}
+.get-started .get-email:hover{
+    background: #f40612;
+    cursor: pointer;
+
+}
+.sign-in{
+    background-color: #e50914;
+
+    padding: 9px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    width: 88px;
+    color: white;
+    border: none;
+    border-radius: 5px ;
+    display: inline-block;
+}
+.right-nav .btn{
+    padding: 9px 17px;
+    background: none;
+    color: white;
+    border: 2px solid;
+}
+hr {
+    height: 9px;
+    color: grey;
+}
+.second-section{
+    display: flex;
+    justify-content: center;
+   
+    background: black;
+}
+.second-section .tv-content{
+    margin: 129px 76px;
+}
+.second-section .card-tv{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #ffffff;
+    display: block;
+
+}
+.second-section .para-tv{
+    font-size: 26px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    color: #ffffff;
+    height: 93px;
+    width: 547px;
+    display: block;
+    margin: 20px 0 7px 0;
+
+
+}
+.second-section .tv-setup {
+    margin-top: 60px;
+}
+.second-section .tv-setup video{
+
+position: relative;
+padding-top: 10px;
+  width:400px ;
+}
+.second-section .tv-setup img{
+
+    width: 515px;
+    right: 55px;
+    top: 655px;
+    position: absolute;
+}
+.third-section{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+
+
+}
+.third-section .mobile-content{
+   margin: 129px 76px;
+
+}
+.third-section .mobile-content .mobile{
+    
+
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #ffffff;
+    display: block;
+
+}
+.third-section .mobile-content .mobile-para{
+    font-size: 26px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    color: #ffffff;
+    height: 93px;
+    width: 547px;
+    display: block;
+    margin: 20px 0 7px 0;
+}
+.third-section .mobile-card .stranger-girl{
+    height: 373px;
+    width: 505px;
+    margin-top: 37px;
+    margin-left: 29px;
+}
+.third-section .mobile-card .download-card .stranger-things{
+    height:72px;
+    width: 51px;
+    max-width: 100%;
+    display: inline;
+    margin-right: 13px;
+
+}
+.third-section .mobile-card .download-card .download-icon{
+    width: 48px;
+    margin-left: 44px;
+}
+
+.third-section .mobile-card .download-card h4{
+    color: white;
+}
+.third-section .mobile-card .download-card .blue{
+    color: blue;
+}
+.third-section .mobile-card .download-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 12px;
+    height: 76px;
+    top: 1397px;
+    left: 120px;
+    /* right: 176px; */
+    position: absolute;
+    width: 297px;
+    background: black;
+        
+}
+
+.fourth-section{
+    display: flex;
+    justify-content: center;
+   
+    background: black;
+}
+.fourth-section .tv-content{
+    margin: 129px 76px;
+}
+.fourth-section .card-tv{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #ffffff;
+    display: block;
+
+}
+.fourth-section .para-tv{
+    font-size: 26px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    color: #ffffff;
+    height: 93px;
+    width: 547px;
+    display: block;
+    margin: 20px 0 7px 0;
+
+
+}
+.fourth-section .tv-setup {
+    margin-top: 60px;
+}
+.fourth-section .tv-setup video{
+
+    position: relative;
+    padding-top: 35px;
+    margin-left: 24px;
+    height: 172px;
+    width: 450px;
+}
+.fourth-section .tv-setup img{
+
+    width: 515px;
+    right: 55px;
+    top: 1652px;
+    position: absolute;
+}
+.fifth-section{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+
+
+}
+.fifth-section .mobile-content{
+   margin: 129px 76px;
+
+}
+
+.fifth-section .mobile-content .mobile{
+    
+
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #ffffff;
+    display: block;
+
+}
+.fifth-section .mobile-content .mobile-para{
+    font-size: 26px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    color: #ffffff;
+    height: 93px;
+    width: 547px;
+    display: block;
+    margin: 20px 0 7px 0;
+}
+.fifth-section .mobile-card .stranger-girl{
+    height: 373px;
+    width: 505px;
+    margin-top: 37px;
+    margin-left: 29px;
+}
+.sixth-section{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+
+}
+.sixth-section .faqs{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #ffffff;
+    display: block;
+    margin-top: 69px;
+}
+.sixth-section:{
+
+}
