@@ -170,12 +170,12 @@ hr {
 .second-section .tv-setup video{
 
 position: relative;
-padding-top: 10px;
+padding-top: 11px;
   width:400px ;
 }
 .second-section .tv-setup img{
 
-    width: 515px;
+    width: 55px;
     right: 55px;
     top: 655px;
     position: absolute;
@@ -220,7 +220,7 @@ padding-top: 10px;
     margin-left: 29px;
 }
 .third-section .mobile-card .download-card .stranger-things{
-    height:72px;
+    height:79px;
     width: 51px;
     max-width: 100%;
     display: inline;
